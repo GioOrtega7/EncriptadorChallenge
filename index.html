@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Encriptador</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">	
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+	<body>
+		<header>
+			<div>
+				<h1 class="logo"><img src="imagenes/logo.png" class="logoalura" alt="logo alura"></h1>
+			</div>
+		</header>
+		<main>
+			<section>
+				<textarea cols="30" rows="10" class="textoingresado" id="caja" placeholder="Ingrese la frase"></textarea>
+				<div >
+					<h6 class="info">	
+						Por favor ingrese solo letras minusculas y sin caracteres</h6>
+				</div>
+				<div class="grupo-botones">
+					<button id="button1" class="boton-encriptar" onclick="encriptar()" >Encriptar</button>
+					<button id="button2" class="boton-desencriptar" onclick="desencriptar()">Desencriptar</button>
+				</div>
+				
+			</section>
+			<section>
+				
+				<textarea cols="20" rows="15" class="textoencriptado" id="caja2" placeholder="Frase Encriptada"></textarea>
+				<!--<img id="muneco" src="imagenes/Muneco.png"> para poder esconder el muneco de otra forma-->
+				
+				
+				
+				<div>
+					<button id="copiar" class="boton-copiar" onclick="copiartexto()">copiar</button>
+				</div>
+				
+
+
+			</section>
+	
+		</main>
+		<footer>
+			<p class="copyright">&copy Copyright Elaborado por Giovanny Ortega</p>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+
+</html>
+

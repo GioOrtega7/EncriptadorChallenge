@@ -1,0 +1,122 @@
+*{
+	background: #F3F5FC;
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;	
+	
+}
+.logo{
+	padding-top: 10px;
+	margin-left: 10px;
+	width: 18%;
+}
+
+.logoalura{
+	transition: 1s all;
+}
+.logoalura:hover{
+	opacity: 30%;
+	transform: rotate(360deg);
+}
+
+
+main{
+	display: flex;
+	margin-bottom: 50px;
+	margin-left: 80px;
+}
+.textoingresado{
+	
+	border: none;
+	resize: none;
+	margin-top: 90px;
+	text-transform: lowercase;
+	color: #0A3871;
+}
+::placeholder{/*con :: esos dobles dos puntos puedo elegir una propiedad de los html para modificarla*/
+	color: #0A3871
+}
+.textoingresado:focus{/*con esta linea hago que no se resalte el borde cuando hago click en la textarea*/
+	outline: none;
+}
+
+
+.textoencriptado{
+	background: white;
+	border: none;
+	background-image: url("imagenes/Muneco.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 24px;
+	color: #0A3871;
+	margin-left: 98px;
+	margin-top: 28px;
+	padding-left: 28px;
+	position: fixed;/*con esto hago que se quede quieto, mientras hago scroll con el mouse*/
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+	resize: none;
+}
+
+#muneco{
+	position: absolute;
+	background: white;
+	left: 900px ;
+	top: 300px ;
+}
+
+.textoencriptado:focus{/*con esta linea hago que no se resalte el borde cuando hago click en la textarea*/
+	outline: none;
+}
+.grupo-botones{
+	display: flex;
+	margin-top: 18px;
+
+}
+.boton-encriptar{
+	background-color: #0A3871;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	color: white;
+	cursor: pointer;
+	height: 67px;
+	width: 328px;
+
+}
+
+.boton-desencriptar{
+	background-color:#D8DFE8 ;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	color: #0A3871;
+	cursor: pointer;
+	height: 67px;
+	margin-left: 38px;
+	width: 328px;
+
+}
+
+.boton-copiar{
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	color: #0A3871;
+	cursor: pointer;
+	height: 67px;
+	margin-left: 115px;
+	margin-top: 670px;
+	position: absolute;
+	width: 336px;
+}
+.info{
+	color: #495057;
+	font-size: 14px;
+}
+
+footer p{
+	font-style: italic;
+	font-size: 25px;
+	text-align: center;
+	
+}
+
+
